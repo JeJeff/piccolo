@@ -4,3 +4,6 @@
 [submodule "piccolo/random-keyboard-parts.pretty"]
 	path = piccolo/random-keyboard-parts.pretty
 	url = https://github.com/ai03-2725/random-keyboard-parts.pretty
+[submodule "piccolo/kbd"]
+	path = piccolo/kbd
+	url = https://github.com/foostan/kbd
