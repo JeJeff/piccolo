@@ -30,7 +30,7 @@ U 1 1 614E4310
 P 4950 1750
 F 0 "SW1" H 4950 2035 50  0000 C CNN
 F 1 "SW_Push" H 4950 1944 50  0000 C CNN
-F 2 "Keebio-Parts:SW_Tactile_SPST_Angled_MJTP1117-no-mount" H 4950 1950 50  0001 C CNN
+F 2 "kbd:ResetSW_1side" H 4950 1950 50  0001 C CNN
 F 3 "~" H 4950 1950 50  0001 C CNN
 	1    4950 1750
 	1    0    0    -1  
@@ -252,9 +252,9 @@ Text GLabel 4450 4200 0    50   Input ~ 0
 EncoderA
 Text GLabel 4450 4400 0    50   Input ~ 0
 EncoderB
-Text GLabel 3050 2550 2    50   Input ~ 0
+Text GLabel 3050 2750 2    50   Input ~ 0
 EncoderA
-Text GLabel 3050 2450 2    50   Input ~ 0
+Text GLabel 3050 2650 2    50   Input ~ 0
 EncoderB
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX3
@@ -280,28 +280,7 @@ F 3 "" H 3800 4300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4450 4300 3800 4300
-$Comp
-L kbd:OLED OL1
-U 1 1 61513CC3
-P 2500 3950
-F 0 "OL1" H 3128 4019 51  0000 L CNN
-F 1 "OLED" H 3128 3929 47  0000 L CNN
-F 2 "kbd:OLED_v2" H 2500 4050 60  0001 C CNN
-F 3 "" H 2500 4050 60  0001 C CNN
-	1    2500 3950
-	1    0    0    -1  
-$EndComp
-Text GLabel 1450 3700 0    50   Input ~ 0
-SDA
-Text GLabel 1450 3850 0    50   Input ~ 0
-SCL
-Text GLabel 1450 4000 0    50   Input ~ 0
-VCC
-Text GLabel 1650 2050 0    50   Input ~ 0
-SDA
-Text GLabel 1650 2150 0    50   Input ~ 0
-SCL
-NoConn ~ 3050 2650
+NoConn ~ 3050 2450
 NoConn ~ 3050 2350
 NoConn ~ 3050 2250
 NoConn ~ 3050 2150
@@ -322,62 +301,9 @@ Wire Wire Line
 Wire Wire Line
 	5300 4400 5300 3100
 Connection ~ 5300 3100
-Text GLabel 3050 2750 2    50   Input ~ 0
+Text GLabel 3050 2550 2    50   Input ~ 0
 row0
 NoConn ~ 1650 2650
-$Comp
-L Jumper:SolderJumper_2_Open JP?
-U 1 1 61578C34
-P 1600 3700
-F 0 "JP?" H 1600 3905 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 1600 3814 50  0000 C CNN
-F 2 "" H 1600 3700 50  0001 C CNN
-F 3 "~" H 1600 3700 50  0001 C CNN
-	1    1600 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP?
-U 1 1 6157A6D9
-P 1600 3850
-F 0 "JP?" H 1600 4055 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 1600 3964 50  0000 C CNN
-F 2 "" H 1600 3850 50  0001 C CNN
-F 3 "~" H 1600 3850 50  0001 C CNN
-	1    1600 3850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP?
-U 1 1 6157AD43
-P 1600 4000
-F 0 "JP?" H 1600 4205 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 1600 4114 50  0000 C CNN
-F 2 "" H 1600 4000 50  0001 C CNN
-F 3 "~" H 1600 4000 50  0001 C CNN
-	1    1600 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP?
-U 1 1 6157B160
-P 1600 4150
-F 0 "JP?" H 1600 4355 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 1600 4264 50  0000 C CNN
-F 2 "" H 1600 4150 50  0001 C CNN
-F 3 "~" H 1600 4150 50  0001 C CNN
-	1    1600 4150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 6157FD67
-P 1450 4150
-F 0 "#PWR?" H 1450 3900 50  0001 C CNN
-F 1 "GND" H 1455 3977 50  0000 C CNN
-F 2 "" H 1450 4150 50  0001 C CNN
-F 3 "" H 1450 4150 50  0001 C CNN
-	1    1450 4150
-	1    0    0    -1  
-$EndComp
+NoConn ~ 1650 2150
+NoConn ~ 1650 2050
 $EndSCHEMATC

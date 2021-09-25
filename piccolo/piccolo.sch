@@ -70,7 +70,7 @@ Wire Wire Line
 	1450 1950 1050 1950
 Text GLabel 3050 1850 2    50   Input ~ 0
 Reset
-Text GLabel 4750 1750 0    50   Input ~ 0
+Text GLabel 4750 1750 3    50   Input ~ 0
 Reset
 $Comp
 L power:GND #PWR0103
@@ -135,7 +135,7 @@ U 1 1 614F574A
 P 4550 2750
 F 0 "D1" H 4550 2957 50  0000 C CNN
 F 1 "D_Small" H 4550 2866 50  0000 C CNN
-F 2 "kbd:D3_TH_SMD" V 4550 2750 50  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" V 4550 2750 50  0001 C CNN
 F 3 "~" V 4550 2750 50  0001 C CNN
 	1    4550 2750
 	1    0    0    -1  
@@ -146,7 +146,7 @@ U 1 1 614F66DB
 P 5000 2750
 F 0 "D2" H 5000 2957 50  0000 C CNN
 F 1 "D_Small" H 5000 2866 50  0000 C CNN
-F 2 "kbd:D3_TH_SMD" V 5000 2750 50  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" V 5000 2750 50  0001 C CNN
 F 3 "~" V 5000 2750 50  0001 C CNN
 	1    5000 2750
 	1    0    0    -1  
@@ -157,7 +157,7 @@ U 1 1 614F6C0A
 P 4550 3300
 F 0 "D4" H 4550 3507 50  0000 C CNN
 F 1 "D_Small" H 4550 3416 50  0000 C CNN
-F 2 "kbd:D3_TH_SMD" V 4550 3300 50  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" V 4550 3300 50  0001 C CNN
 F 3 "~" V 4550 3300 50  0001 C CNN
 	1    4550 3300
 	1    0    0    -1  
@@ -168,7 +168,7 @@ U 1 1 614F770C
 P 5000 3300
 F 0 "D5" H 5000 3507 50  0000 C CNN
 F 1 "D_Small" H 5000 3416 50  0000 C CNN
-F 2 "kbd:D3_TH_SMD" V 5000 3300 50  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" V 5000 3300 50  0001 C CNN
 F 3 "~" V 5000 3300 50  0001 C CNN
 	1    5000 3300
 	1    0    0    -1  
@@ -215,7 +215,7 @@ U 1 1 614FCDC3
 P 5500 2750
 F 0 "D3" H 5500 2957 50  0000 C CNN
 F 1 "D_Small" H 5500 2866 50  0000 C CNN
-F 2 "kbd:D3_TH_SMD" V 5500 2750 50  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" V 5500 2750 50  0001 C CNN
 F 3 "~" V 5500 2750 50  0001 C CNN
 	1    5500 2750
 	1    0    0    -1  
@@ -229,8 +229,6 @@ Wire Wire Line
 	5800 2550 5800 2250
 Text GLabel 5800 2250 2    50   Input ~ 0
 col2
-Text GLabel 1650 2650 0    50   Input ~ 0
-row0
 Text GLabel 1650 2750 0    50   Input ~ 0
 row1
 Text GLabel 1650 2350 0    50   Input ~ 0
@@ -242,21 +240,21 @@ col2
 $Comp
 L Device:Rotary_Encoder_Switch SW2
 U 1 1 6150121A
-P 5300 4200
-F 0 "SW2" H 5300 4567 50  0000 C CNN
-F 1 "Rotary_Encoder_Switch" H 5300 4476 50  0000 C CNN
-F 2 "Keebio-Parts:RotaryEncoder_EC11-no-legs" H 5150 4360 50  0001 C CNN
-F 3 "~" H 5300 4460 50  0001 C CNN
-	1    5300 4200
+P 4750 4300
+F 0 "SW2" H 4750 4667 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 4750 4576 50  0000 C CNN
+F 2 "Keebio-Parts:RotaryEncoder_EC11-no-legs" H 4600 4460 50  0001 C CNN
+F 3 "~" H 4750 4560 50  0001 C CNN
+	1    4750 4300
 	1    0    0    -1  
 $EndComp
-Text GLabel 5000 4100 0    50   Input ~ 0
+Text GLabel 4450 4200 0    50   Input ~ 0
 EncoderA
-Text GLabel 5000 4300 0    50   Input ~ 0
+Text GLabel 4450 4400 0    50   Input ~ 0
 EncoderB
-Text GLabel 3050 2450 2    50   Input ~ 0
-EncoderA
 Text GLabel 3050 2550 2    50   Input ~ 0
+EncoderA
+Text GLabel 3050 2450 2    50   Input ~ 0
 EncoderB
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX3
@@ -269,60 +267,40 @@ F 3 "" H 5025 2575 60  0001 C CNN
 	1    5650 2600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5600 2750 5600 4100
-Connection ~ 5600 2750
-Wire Wire Line
-	5800 4300 5800 2550
-Wire Wire Line
-	5600 4300 5800 4300
-Connection ~ 5800 2550
 $Comp
 L power:GND #PWR0104
 U 1 1 61512410
-P 4350 4200
-F 0 "#PWR0104" H 4350 3950 50  0001 C CNN
-F 1 "GND" H 4355 4027 50  0000 C CNN
-F 2 "" H 4350 4200 50  0001 C CNN
-F 3 "" H 4350 4200 50  0001 C CNN
-	1    4350 4200
+P 3800 4300
+F 0 "#PWR0104" H 3800 4050 50  0001 C CNN
+F 1 "GND" H 3805 4127 50  0000 C CNN
+F 2 "" H 3800 4300 50  0001 C CNN
+F 3 "" H 3800 4300 50  0001 C CNN
+	1    3800 4300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5000 4200 4350 4200
+	4450 4300 3800 4300
 $Comp
 L kbd:OLED OL1
 U 1 1 61513CC3
-P 2550 3950
-F 0 "OL1" H 3178 4019 51  0000 L CNN
-F 1 "OLED" H 3178 3929 47  0000 L CNN
-F 2 "kbd:OLED_v2" H 2550 4050 60  0001 C CNN
-F 3 "" H 2550 4050 60  0001 C CNN
-	1    2550 3950
+P 2500 3950
+F 0 "OL1" H 3128 4019 51  0000 L CNN
+F 1 "OLED" H 3128 3929 47  0000 L CNN
+F 2 "kbd:OLED_v2" H 2500 4050 60  0001 C CNN
+F 3 "" H 2500 4050 60  0001 C CNN
+	1    2500 3950
 	1    0    0    -1  
 $EndComp
-Text GLabel 1800 3700 0    50   Input ~ 0
+Text GLabel 1450 3700 0    50   Input ~ 0
 SDA
-Text GLabel 1800 3850 0    50   Input ~ 0
+Text GLabel 1450 3850 0    50   Input ~ 0
 SCL
-Text GLabel 1800 4000 0    50   Input ~ 0
+Text GLabel 1450 4000 0    50   Input ~ 0
 VCC
 Text GLabel 1650 2050 0    50   Input ~ 0
 SDA
 Text GLabel 1650 2150 0    50   Input ~ 0
 SCL
-$Comp
-L power:GND #PWR0105
-U 1 1 61515A24
-P 1800 4150
-F 0 "#PWR0105" H 1800 3900 50  0001 C CNN
-F 1 "GND" H 1805 3977 50  0000 C CNN
-F 2 "" H 1800 4150 50  0001 C CNN
-F 3 "" H 1800 4150 50  0001 C CNN
-	1    1800 4150
-	1    0    0    -1  
-$EndComp
-NoConn ~ 3050 2750
 NoConn ~ 3050 2650
 NoConn ~ 3050 2350
 NoConn ~ 3050 2250
@@ -334,4 +312,72 @@ NoConn ~ 1650 1750
 NoConn ~ 1650 2250
 NoConn ~ 5150 2500
 NoConn ~ 4050 150 
+Wire Wire Line
+	5050 4200 5100 4200
+Wire Wire Line
+	5100 4200 5100 3300
+Connection ~ 5100 3300
+Wire Wire Line
+	5050 4400 5300 4400
+Wire Wire Line
+	5300 4400 5300 3100
+Connection ~ 5300 3100
+Text GLabel 3050 2750 2    50   Input ~ 0
+row0
+NoConn ~ 1650 2650
+$Comp
+L Jumper:SolderJumper_2_Open JP1
+U 1 1 61578C34
+P 1600 3700
+F 0 "JP1" H 1600 3905 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 1600 3814 50  0000 C CNN
+F 2 "Keyboard parts:SOLDER_JUMPER_2" H 1600 3700 50  0001 C CNN
+F 3 "~" H 1600 3700 50  0001 C CNN
+	1    1600 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP2
+U 1 1 6157A6D9
+P 1600 3850
+F 0 "JP2" H 1600 4055 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 1600 3964 50  0000 C CNN
+F 2 "Keyboard parts:SOLDER_JUMPER_2" H 1600 3850 50  0001 C CNN
+F 3 "~" H 1600 3850 50  0001 C CNN
+	1    1600 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP3
+U 1 1 6157AD43
+P 1600 4000
+F 0 "JP3" H 1600 4205 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 1600 4114 50  0000 C CNN
+F 2 "Keyboard parts:SOLDER_JUMPER_2" H 1600 4000 50  0001 C CNN
+F 3 "~" H 1600 4000 50  0001 C CNN
+	1    1600 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP4
+U 1 1 6157B160
+P 1600 4150
+F 0 "JP4" H 1600 4355 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 1600 4264 50  0000 C CNN
+F 2 "Keyboard parts:SOLDER_JUMPER_2" H 1600 4150 50  0001 C CNN
+F 3 "~" H 1600 4150 50  0001 C CNN
+	1    1600 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 6157FD67
+P 1450 4150
+F 0 "#PWR0105" H 1450 3900 50  0001 C CNN
+F 1 "GND" H 1455 3977 50  0000 C CNN
+F 2 "" H 1450 4150 50  0001 C CNN
+F 3 "" H 1450 4150 50  0001 C CNN
+	1    1450 4150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
