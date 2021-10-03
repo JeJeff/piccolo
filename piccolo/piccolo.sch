@@ -25,10 +25,10 @@ F 3 "" V 3400 -300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW1
+L Switch:SW_Push RESET
 U 1 1 614E4310
 P 4950 1750
-F 0 "SW1" H 4950 2035 50  0000 C CNN
+F 0 "RESET" H 4950 2035 50  0000 C CNN
 F 1 "SW_Push" H 4950 1944 50  0000 C CNN
 F 2 "Keebio-Parts:SW_Tactile_SPST_Angled_MJTP1117-no-mount" H 4950 1950 50  0001 C CNN
 F 3 "~" H 4950 1950 50  0001 C CNN
@@ -238,10 +238,10 @@ col1
 Text GLabel 1650 2550 0    50   Input ~ 0
 col2
 $Comp
-L Device:Rotary_Encoder_Switch SW2
+L Device:Rotary_Encoder_Switch ENC1
 U 1 1 6150121A
 P 4750 4300
-F 0 "SW2" H 4750 4667 50  0000 C CNN
+F 0 "ENC1" H 4750 4667 50  0000 C CNN
 F 1 "Rotary_Encoder_Switch" H 4750 4576 50  0000 C CNN
 F 2 "Keebio-Parts:RotaryEncoder_EC11-no-legs" H 4600 4460 50  0001 C CNN
 F 3 "~" H 4750 4560 50  0001 C CNN
@@ -326,10 +326,10 @@ Text GLabel 3050 2750 2    50   Input ~ 0
 row0
 NoConn ~ 1650 2650
 $Comp
-L Jumper:SolderJumper_2_Open JP1
+L Jumper:SolderJumper_2_Open SDA
 U 1 1 61578C34
 P 1600 3700
-F 0 "JP1" H 1600 3905 50  0000 C CNN
+F 0 "SDA" H 1600 3905 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 1600 3814 50  0000 C CNN
 F 2 "Keyboard parts:SOLDER_JUMPER_2" H 1600 3700 50  0001 C CNN
 F 3 "~" H 1600 3700 50  0001 C CNN
@@ -337,10 +337,10 @@ F 3 "~" H 1600 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Open JP2
+L Jumper:SolderJumper_2_Open SCL
 U 1 1 6157A6D9
 P 1600 3850
-F 0 "JP2" H 1600 4055 50  0000 C CNN
+F 0 "SCL" H 1600 4055 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 1600 3964 50  0000 C CNN
 F 2 "Keyboard parts:SOLDER_JUMPER_2" H 1600 3850 50  0001 C CNN
 F 3 "~" H 1600 3850 50  0001 C CNN
@@ -348,25 +348,14 @@ F 3 "~" H 1600 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Open JP3
+L Jumper:SolderJumper_2_Open VCC
 U 1 1 6157AD43
 P 1600 4000
-F 0 "JP3" H 1600 4205 50  0000 C CNN
+F 0 "VCC" H 1600 4205 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 1600 4114 50  0000 C CNN
 F 2 "Keyboard parts:SOLDER_JUMPER_2" H 1600 4000 50  0001 C CNN
 F 3 "~" H 1600 4000 50  0001 C CNN
 	1    1600 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP4
-U 1 1 6157B160
-P 1600 4150
-F 0 "JP4" H 1600 4355 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 1600 4264 50  0000 C CNN
-F 2 "Keyboard parts:SOLDER_JUMPER_2" H 1600 4150 50  0001 C CNN
-F 3 "~" H 1600 4150 50  0001 C CNN
-	1    1600 4150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -378,6 +367,17 @@ F 1 "GND" H 1455 3977 50  0000 C CNN
 F 2 "" H 1450 4150 50  0001 C CNN
 F 3 "" H 1450 4150 50  0001 C CNN
 	1    1450 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open GND
+U 1 1 6157B160
+P 1600 4150
+F 0 "GND" H 1600 4355 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 1600 4264 50  0000 C CNN
+F 2 "Keyboard parts:SOLDER_JUMPER_2" H 1600 4150 50  0001 C CNN
+F 3 "~" H 1600 4150 50  0001 C CNN
+	1    1600 4150
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

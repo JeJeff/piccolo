@@ -25,10 +25,10 @@ F 3 "" V 3400 -300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW1
+L Switch:SW_Push RESET
 U 1 1 614E4310
 P 4950 1750
-F 0 "SW1" H 4950 2035 50  0000 C CNN
+F 0 "RESET" H 4950 2035 50  0000 C CNN
 F 1 "SW_Push" H 4950 1944 50  0000 C CNN
 F 2 "kbd:ResetSW_1side" H 4950 1950 50  0001 C CNN
 F 3 "~" H 4950 1950 50  0001 C CNN
@@ -238,10 +238,10 @@ col1
 Text GLabel 1650 2550 0    50   Input ~ 0
 col2
 $Comp
-L Device:Rotary_Encoder_Switch SW2
+L Device:Rotary_Encoder_Switch ENC1
 U 1 1 6150121A
 P 4750 4300
-F 0 "SW2" H 4750 4667 50  0000 C CNN
+F 0 "ENC1" H 4750 4667 50  0000 C CNN
 F 1 "Rotary_Encoder_Switch" H 4750 4576 50  0000 C CNN
 F 2 "Keebio-Parts:RotaryEncoder_EC11-no-legs" H 4600 4460 50  0001 C CNN
 F 3 "~" H 4750 4560 50  0001 C CNN
@@ -252,9 +252,9 @@ Text GLabel 4450 4200 0    50   Input ~ 0
 EncoderA
 Text GLabel 4450 4400 0    50   Input ~ 0
 EncoderB
-Text GLabel 3050 2550 2    50   Input ~ 0
+Text GLabel 3050 2750 2    50   Input ~ 0
 EncoderA
-Text GLabel 3050 2450 2    50   Input ~ 0
+Text GLabel 3050 2650 2    50   Input ~ 0
 EncoderB
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX3
@@ -280,7 +280,7 @@ F 3 "" H 3800 4300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4450 4300 3800 4300
-NoConn ~ 3050 2650
+NoConn ~ 3050 2450
 NoConn ~ 3050 2350
 NoConn ~ 3050 2250
 NoConn ~ 3050 2150
@@ -301,7 +301,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 4400 5300 3100
 Connection ~ 5300 3100
-Text GLabel 3050 2750 2    50   Input ~ 0
+Text GLabel 3050 2550 2    50   Input ~ 0
 row0
 NoConn ~ 1650 2650
 NoConn ~ 1650 2150
