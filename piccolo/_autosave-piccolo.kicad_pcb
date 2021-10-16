@@ -959,7 +959,7 @@
       (effects (font (size 0.8 0.8) (thickness 0.15) italic) (justify mirror))
       (tstamp c29e03c1-94f7-4001-9673-b95854e6caad)
     )
-    (fp_text user "Components face PCB" (at 0 16.4 90 unlocked) (layer "B.SilkS")
+    (fp_text user "Components face PCB" (at 1.4375 1.0875 unlocked) (layer "B.SilkS")
       (effects (font (size 0.8 0.8) (thickness 0.15) italic) (justify mirror))
       (tstamp c5c5a005-789d-4074-8d46-a9d2bba63be0)
     )
