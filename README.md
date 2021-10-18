@@ -26,7 +26,7 @@ Keycaps | 4-5 | Relegendable caps recommended, but the choice is yours
 Hotswap sockets | 4-5 | 1 per keyswitch
 EC11 Rotary Encoder | 0-1 | Optional, replaces one of the 5 switches
 Encoder knob | 0-1 | Matching the encoder, max diameter 18mm
-1N1418 Diode | 5 | Both SMD (SOD-123) and through hole (DO-35) supported
+1N4148 Diode | 5 | Both SMD (SOD-123) and through hole (DO-35) supported
 Pro Micro | 1 | Or pin compatible controller
 0.91" OLED screen | 1 | Technically optional, but if you don't want the screen, consider using the Piccolo Mini instead.
 
