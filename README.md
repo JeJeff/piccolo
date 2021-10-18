@@ -22,6 +22,7 @@ PCB | 1 |
 Switchplate | 1 | Technically optional, but recommended
 Backplate | 1 | Technically optional, but recommended
 MX Switches | 4-5 | 
+Keycaps | 4-5 | Relegendable caps recommended, but the choice is yours
 Hotswap sockets | 4-5 | 1 per keyswitch
 EC11 Rotary Encoder | 0-1 | Optional, replaces one of the 5 switches
 Encoder knob | 0-1 | Matching the encoder, max diameter 18mm
