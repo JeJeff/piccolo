@@ -1,5 +1,5 @@
-# Piccolo
-Piccolo is a mini macropad intended for video conference control.
+# Piccolo Zoom controller
+Piccolo is a mini macropad intended for video conference control.  Setup by default for Zoom, it could be used to Teams, Webex, or any other video conference system with keyboard shortcuts just by changing the keymapping.  And of course you can repurpose it for anything else you feel like.
 
 ## Key features
 * 5 key macro pad
@@ -39,6 +39,8 @@ Pro Micro | 1 | Or pin compatible controller
 - [x] Switchplate design
 - [x] Backplate design
 - [ ] Second prototype
+- [ ] Switchplate prototype
+- [ ] Backplate prototype
 - [ ] Finalise design
-- [ ] Build instructions
 - [ ] Photos and images
+- [ ] Build instructions
