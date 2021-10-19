@@ -1,32 +1,10 @@
-# Piccolo Zoom controller
-Piccolo is a mini macropad intended for video conference control.  Setup by default for Zoom, it could be used to Teams, Webex, or any other video conference system with keyboard shortcuts just by changing the keymapping.  And of course you can repurpose it for anything else you feel like.
+# Piccolo Macropads
+These are mini macropads intended for video conference control.  Setup by default for Zoom, it could be used to Teams, Webex, or any other video conference system with keyboard shortcuts just by changing the keymapping.  And of course you can repurpose it for anything else you feel like.
 
-## Key features
-* 5 key macro pad
-* Supports MX style switches
-* Hot swap sockets
-* OLED screen
-* Optional rotary encoder replacing one of the keys
-* QMK controlled
-* Easy to solder
+The [Piccolo](https://github.com/JeJeff/piccolo/tree/main/piccolo) has 5 buttons, or 4 buttons and a rotary encoder, and an OLED screen.
 
-## Additional information
- * 2 layer PCB
- * Switchplate and backplate designs available
- * Both throughhole and SMD diodes supported
- 
-## Bill of materials
-|Reference | Item                | Quantity | Notes
-|----------|---------------------|----------|--------------------------------------
-|          | PCB                 | 1        |
-|          | Switchplate         | 1        | Technically optional, but recommended
-|          | Backplate           | 1        | Technically optional, but recommended
-|          | M2 standoff 12mm    | 3        | Max diameter 3.7mm, required when using back- and switch-plates
-|          | MX Switches         | 4-5      | 
-|          | Keycaps             | 4-5      | Relegendable caps recommended, but the choice is yours
-| MX1-MX5  | Hotswap sockets     | 4-5      | 1 per keyswitch
-| ENC1     | EC11 Rotary Encoder | 0-1      | Optional, replaces MX5
-|          | Encoder knob        | 0-1      | Matching the encoder, max diameter 18mm
-| D1-D5    | 1N4148 Diode        | 5        | Both SMD (SOD-123) and through hole (DO-35) supported
-| U1       | Pro Micro           | 1        | Or pin compatible controller
-| OLED1    | 0.91" OLED screen   | 1        | Technically optional, (but if you don't want the screen, consider using the [Piccolo Mini](https://github.com/JeJeff/piccolo/tree/main/piccolo-mini) instead which will be coming soon).
+The [Piccolo Mini](https://github.com/JeJeff/piccolo/tree/main/piccolo-mini) is the same but without the screen.
+
+## Current Status
+The Piccolo has a working prototype, and revision 2 (including FR4 switch- and back-plates) is ready for ordering.
+The Piccolo mini is not yet prototyped.  Work on this is paused until the bigger brother is ready for release.
