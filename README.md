@@ -6,5 +6,8 @@ The [Piccolo](https://github.com/JeJeff/piccolo/tree/main/piccolo) has 5 buttons
 The [Piccolo Mini](https://github.com/JeJeff/piccolo/tree/main/piccolo-mini) is the same but without the screen.
 
 ## Current Status
+### Piccolo
 The Piccolo has a working prototype, and revision 2 (including FR4 switch- and back-plates) is ready for ordering.
-The Piccolo mini is not yet prototyped.  Work on this is paused until the bigger brother is ready for release.
+
+### Piccolo Mini
+The Piccolo mini is designed not yet prototyped.  Work on this is paused until the bigger brother is ready for release.
