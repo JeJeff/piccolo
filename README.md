@@ -30,19 +30,3 @@ Piccolo is a mini macropad intended for video conference control.  Setup by defa
 | D1-D5    | 1N4148 Diode        | 5        | Both SMD (SOD-123) and through hole (DO-35) supported
 | U1       | Pro Micro           | 1        | Or pin compatible controller
 | OLED1    | 0.91" OLED screen   | 1        | Technically optional, (but if you don't want the screen, consider using the [Piccolo Mini](https://github.com/JeJeff/piccolo/tree/main/piccolo-mini) instead which will be coming soon).
-
-## To do list
-- [x] Schematic design
-- [x] PCB design
-- [x] Initial prototype
-- [x] Revise designs
-- [x] QMK firmware
-- [ ] Get QMK firmware merged
-- [x] Switchplate design
-- [x] Backplate design
-- [ ] Second prototype
-- [ ] Switchplate prototype
-- [ ] Backplate prototype
-- [ ] Finalise design
-- [ ] Photos and images
-- [ ] Build instructions
