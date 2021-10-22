@@ -3354,6 +3354,8 @@
       ) (layer "B.SilkS") (width 0) (fill solid) (tstamp fd2bff1b-17d1-4868-a433-b31971f448ec))
   )
 
+  (gr_line (start 73.15 104.7) (end 209.8 84.05) (layer "Dwgs.User") (width 0.15) (tstamp 05228606-45a3-42ca-9a5f-095286f51e69))
+  (gr_line (start 209.8 104.7) (end 73.2 84.1) (layer "Dwgs.User") (width 0.15) (tstamp 9d8d26c6-f3d5-4c1d-84eb-cfe868e205dc))
   (gr_arc (start 73.979118 84.846655) (end 73.979118 84.052905) (angle -90) (layer "Edge.Cuts") (width 0.05) (tstamp 28410306-3f25-4c1f-82f3-c338a66d6881))
   (gr_line (start 73.979118 104.690405) (end 209.011868 104.690405) (layer "Edge.Cuts") (width 0.05) (tstamp 7f16aa43-1f8a-4b98-af6f-32163a0d9325))
   (gr_line (start 209.805618 103.896655) (end 209.805618 84.846655) (layer "Edge.Cuts") (width 0.05) (tstamp 83846531-a0e9-4207-a923-29747a0cacae))
@@ -3364,6 +3366,9 @@
   (gr_line (start 209.011868 84.052905) (end 73.979118 84.052905) (layer "Edge.Cuts") (width 0.05) (tstamp e853576b-1246-4a1a-a473-2c8d62250813))
   (gr_text "JLCJLCJLCJLC" (at 113.85 90.7) (layer "F.SilkS") (tstamp aa6cd231-07f3-42b3-b828-0488d16e0c69)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
+  )
+  (gr_text "Piccolo Macro Pad Backplate\nby JeJeff\nrev 0.2" (at 141.45 94.35) (layer "F.Mask") (tstamp e184dd3d-a4ee-4cd2-8fdd-c5f5cf17591e)
+    (effects (font (size 1 1) (thickness 0.2)))
   )
   (dimension (type aligned) (layer "Dwgs.User") (tstamp a4fca075-1f21-4db6-8546-dd6722187e6c)
     (pts (xy 209.805618 84.846655) (xy 73.185368 84.846655))

@@ -30,8 +30,8 @@
 
   (setup
     (pad_to_mask_clearance 0)
-    (aux_axis_origin 143.7005 88.773)
-    (grid_origin 185.3005 90.973)
+    (aux_axis_origin 200.8505 88.773)
+    (grid_origin 200.8505 88.773)
     (pcbplotparams
       (layerselection 0x00010fc_ffffffff)
       (disableapertmacros false)
@@ -1115,7 +1115,7 @@
   (gr_arc (start 134.138 98.298) (end 133.34425 98.298) (angle -90) (layer "Edge.Cuts") (width 0.05) (tstamp 335f1d91-9800-41ca-a572-fbd7e87dddb6))
   (gr_arc (start 229.4255 98.298) (end 229.4255 99.09175) (angle -90) (layer "Edge.Cuts") (width 0.05) (tstamp b738e208-c668-4377-b16a-cba7dba90255))
   (gr_arc (start 134.138 79.248) (end 134.138 78.45425) (angle -90) (layer "Edge.Cuts") (width 0.05) (tstamp c1c19d5d-a5fe-4989-96df-ee72d368dee5))
-  (gr_text "Piccolo Mini\nby JeJeff\nrev 0.1" (at 202.2005 95.473) (layer "B.Mask") (tstamp 5804b47c-c023-4618-8a1b-e21cce870e5c)
+  (gr_text "Piccolo Mini\nby JeJeff\nrev 0.1" (at 200.8505 95.273) (layer "B.Mask") (tstamp 5804b47c-c023-4618-8a1b-e21cce870e5c)
     (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
   )
 

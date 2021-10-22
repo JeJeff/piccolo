@@ -39,6 +39,7 @@
 
   (setup
     (pad_to_mask_clearance 0)
+    (grid_origin 119.187496 118.3125)
     (pcbplotparams
       (layerselection 0x00010fc_ffffffff)
       (disableapertmacros false)
@@ -357,6 +358,9 @@
   (gr_arc (start 204.912496 127.8375) (end 204.912496 128.63125) (angle -90) (layer "Edge.Cuts") (width 0.05) (tstamp cca2d821-efcd-4d19-8dfc-2bd8d63cb6d1))
   (gr_text "JLCJLCJLCJLC" (at 128.5875 119.0625 90) (layer "B.SilkS") (tstamp 86a0d9c9-f738-4962-b1b1-09f234e07997)
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
+  )
+  (gr_text "Piccolo Macro Pad\nSwitchplate\nby JeJeff\nrev 0.2" (at 107.087496 118.5625 90) (layer "B.Mask") (tstamp ce395612-79ae-4745-b80f-d55ab2bcbd0b)
+    (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
   )
   (dimension (type aligned) (layer "Dwgs.User") (tstamp 26bdadf6-8187-4a72-a2ef-a40118c51aff)
     (pts (xy 204.912496 128.63125) (xy 204.912496 107.99375))
