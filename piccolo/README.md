@@ -17,7 +17,7 @@ Piccolo Macropad is intended for video conference control.  Setup by default for
  
 ## Bill of materials
 |Reference | Item                     | Quantity | Notes
-|----------|--------------------------|----------|--------------------------------------
+|:--------:|--------------------------|:--------:|-------------------------------------
 |          | **Plates**               |          |
 |          | PCB                      | 1        |
 |          | Switchplate              | 1        | 
