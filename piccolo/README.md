@@ -29,7 +29,7 @@ Piccolo Macropad is intended for video conference control.  Setup by default for
 | D1-D5    | 1N4148 Diode             | 5        | Both SMD (SOD-123) and through hole (DO-35) supported.
 | U1       | Pro Micro                | 1        | Or pin compatible controller.
 | U1       | 12x1 male pin header     | 2        | For the pro micro.
-| OLED1    | 0.91" OLED screen        | 1        | Technically optional, (but if you don't want the screen, consider using the [Piccolo Mini](https://github.com/JeJeff/piccolo/tree/main/piccolo-mini) instead which will be coming soon).
+| OLED1    | 0.91" OLED screen        | 1        | If you don't want the screen, consider using the [Piccolo Mini](https://github.com/JeJeff/piccolo/tree/main/piccolo-mini) instead.
 |          |                          |          |
 |          | **Hardware**             |          |
 |          | M2 standoff 12mm         | 3        | Max diameter 3.7mm, required when using back- and switch-plates
