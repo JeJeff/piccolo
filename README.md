@@ -1,5 +1,5 @@
 # Piccolo Macropads
-These are mini macropads intended for video conference control.  Setup by default for Zoom, it could be used to Teams, Webex, or any other video conference system with keyboard shortcuts just by changing the keymapping.  And of course you can repurpose it for anything else you feel like.
+These are mini macropads intended for video conference control.  Setup by default for Zoom, it could be used to Teams, Webex, or any other video conference system (or anything else) with keyboard shortcuts just by changing the keymapping.
 
 The [Piccolo Macropad](https://github.com/JeJeff/piccolo/tree/main/piccolo) has 5 buttons, or 4 buttons and a rotary encoder, and an OLED screen.
 
