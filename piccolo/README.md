@@ -30,10 +30,11 @@ Piccolo Macropad is intended for video conference control.  Setup by default for
 | U1       | Pro Micro                | 1        | Or pin compatible controller.
 | U1       | 12x1 male pin header     | 2        | For the pro micro.
 | OLED1    | 0.91" OLED screen        | 1        | If you don't want the screen, consider using the [Piccolo Mini](https://github.com/JeJeff/piccolo/tree/main/piccolo-mini) instead.
+| OLED1    | 4x1 male pin header      | 1        | For the OLED screen.
 |          |                          |          |
 |          | **Hardware**             |          |
-|          | M2 standoff 12mm         | 3        | Max diameter 3.7mm, required when using back- and switch-plates
-|          | M2 x 6mm flat head screw | 6        | Button head screws also work, could go as short as 4mm
+|          | M2 standoff 12mm         | 3        | Max diameter 3.7mm, required when using back- and switch-plates.
+|          | M2 x 6mm flat head screw | 6        | Button head screws also work, could go as short as 4mm.
 |          | Rubber feet 8mm          | 4        | 
 |          |                          |          |
 |          | **Keys and Knobs**       |          |
