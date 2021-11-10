@@ -3,7 +3,7 @@ Piccolo Macropad is intended for video conference control.  Setup by default for
 
 ## Key features
 * 5 key macro pad
-* Supports MX style switches
+* Both 3 and 5 pin MX style switches supported
 * Hot swap sockets
 * OLED screen
 * Optional rotary encoder replacing one of the keys
