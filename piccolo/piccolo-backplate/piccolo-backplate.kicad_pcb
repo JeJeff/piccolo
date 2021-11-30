@@ -3368,7 +3368,7 @@
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
   (gr_text "Piccolo Macro Pad Backplate\nby JeJeff\nrev 0.3" (at 141.45 94.35) (layer "F.Mask") (tstamp e184dd3d-a4ee-4cd2-8fdd-c5f5cf17591e)
-    (effects (font (size 1 1) (thickness 0.2)))
+    (effects (font (size 1 1) (thickness 0.25)))
   )
   (dimension (type aligned) (layer "Dwgs.User") (tstamp a4fca075-1f21-4db6-8546-dd6722187e6c)
     (pts (xy 209.805618 84.846655) (xy 73.185368 84.846655))
