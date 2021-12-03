@@ -600,7 +600,7 @@
     (uuid b7162bf5-3cbb-4422-b25c-55817c85e6e8)
   )
 
-  (text "The following pins are obstructed by a key switch\n24 - RAW\n20 - A3/PF4\n19 - A2/PF5\n18 - A1/PF6 (partial)\n16 - 15/PB1\nThese pins should be removed from the pin header\n"
+  (text "The following pins are obstructed by a key switch\n24 - RAW\n20 - A3/PF4\n19 - A2/PF5\n16 - 15/PB1\nThese pins should be removed from the pin header\n"
     (at 35.56 33.02 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 138051a1-4672-47b6-801e-a21979434471)
